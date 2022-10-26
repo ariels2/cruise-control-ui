@@ -1,15 +1,4 @@
-.PHONY: deps
-deps:
-	@echo "Install Deps"
+include ./Makefile.common.mk
 
-.PHONY: test
-test:
-	@echo "Perform Tests"
-
-.PHONY: build
-build:
-	@echo "Build code"
-
-.PHONY: publish
-publish:
-	@echo "Build code"
+IMAGE_NAME := cruise-control-ui
+IMAGE_VERSION := v0.4.0
